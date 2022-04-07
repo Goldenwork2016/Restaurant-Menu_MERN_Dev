@@ -1,0 +1,205 @@
+/* .gradient-font {
+    background: radial-gradient(at 0% 30%, #ef008f, #6ec3f4, #292C6D 30%, #ffba27);
+    background-clip: text;
+    color: transparent;
+  } */
+
+
+/* 
+    .fa-shopping-cart {
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-clip: text;
+    color: transparent;
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+    }
+
+    .fa-shopping-cart:before {
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-clip: text;
+    color: transparent;
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+    } */
+    
+    .fa-cc-stripe {
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-clip: text;
+    color: transparent;
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+    }
+
+    .fa-cc-stripe:before {
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-clip: text;
+    color: transparent;
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+    }
+
+    /* .fa-credit-card {
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-clip: text;
+    color: transparent;
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+    }
+
+    .fa-credit-card:before {
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-clip: text;
+    color: transparent;
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+    } */
+
+#home-cc {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1%, rgba(0, 0, 0, 0.01) 100%), conic-gradient(from 90deg at 50% 119.04%, #292C6D 270deg,#292C6D 4.88deg, #EF008F 300.42deg);
+/* background-clip: text; */
+/* color: transparent; */
+background-size: 400% 400%;
+-webkit-animation: Gradient 20s ease-in-out infinite;
+-moz-animation: Gradient 20s ease-in-out infinite;
+animation: Gradient 20s ease-in-out infinite;
+}
+
+#animate-nav {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1%, rgba(0, 0, 0, 0.01) 100%), conic-gradient(from 90deg at 50% 119.04%, #292C6D 270deg,#292C6D 4.88deg, #EF008F 300.42deg);
+/* background-clip: text; */
+/* color: transparent; */
+background-size: 400% 400%;
+-webkit-animation: Gradient 20s ease-in-out;
+-moz-animation: Gradient 20s ease-in-out;
+animation: Gradient 20s ease-in-out;
+}
+
+#home-icon {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1%, rgba(0, 0, 0, 0.01) 100%), conic-gradient(from 90deg at 50% 119.04%, #292C6D 270deg,#292C6D 4.88deg, #EF008F 300.42deg);
+background-clip: text;
+color: transparent;
+background-size: 400% 400%;
+-webkit-animation: Gradient 20s ease-in-out infinite;
+-moz-animation: Gradient 20s ease-in-out infinite;
+animation: Gradient 20s ease-in-out infinite;
+}
+
+#home-cc:before {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1%, rgba(0, 0, 0, 0.01) 100%), conic-gradient(from 90deg at 50% 119.04%, #EF008F 270deg,#EF008F 4.88deg, #292C6D 300.42deg);
+background-clip: text;
+color: transparent;
+background-size: 400% 400%;
+-webkit-animation: Gradient 20s ease-in-out infinite;
+-moz-animation: Gradient 20s ease-in-out infinite;
+animation: Gradient 20s ease-in-out infinite;
+}
+
+#home-btn {
+background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1%, rgba(0, 0, 0, 0.01) 100%), conic-gradient(from 90deg at 50% 119.04%, #292C6D 270deg,#292C6D 4.88deg, #EF008F 300.42deg);
+/* background-clip: text; */
+/* color: transparent; */
+background-size: 400% 400%;
+-webkit-animation: Gradient 20s ease-in-out infinite;
+-moz-animation: Gradient 20s ease-in-out infinite;
+animation: Gradient 20s ease-in-out infinite;
+color: #fff
+}
+
+.btn-action-1 {
+  color: #ffffff!important;
+  background-color: #EF008F;
+  /* border-color: #EF008F; */
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1%, rgba(0, 0, 0, 0.01) 100%), conic-gradient(from 90deg at 50% 119.04%, #292C6D 270deg,#292C6D 4.88deg, #EF008F 300.42deg);  /* background-clip:inherit; */
+  /* color: transparent; */
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 20s ease-in infinite;
+  -moz-animation: Gradient 20s ease-in infinite;
+  animation: Gradient 20s ease-in infinite;
+}
+    
+  
+  @-webkit-keyframes Gradient {
+    0% {
+    background-position: 0% 50%
+    }
+  50% {
+  background-position: 100% 50%
+  }
+  100% {
+  background-position: 0% 50%
+  }
+  }
+  
+  @-moz-keyframes Gradient {
+    0% {
+    background-position: 0% 50%
+    }
+  50% {
+  background-position: 100% 50%
+  }
+  100% {
+  background-position: 0% 50%
+  }
+  }
+  
+  @keyframes Gradient {
+    0% {
+    background-position: 0% 50%
+    }
+  50% {
+  background-position: 100% 50%
+  }
+  100% {
+  background-position: 0% 50%
+  }
+  }
+
+  .logo-font {
+      font-family: Cereal Medium Bold;
+      font-size: 40px;
+      letter-spacing: -2px;
+      padding-right: 5px;
+  }
+
+.item-active {
+  color: #05680D;
+  fill: #05680D;
+  padding: 5px 10px;
+  border-radius: 8px;
+  background-color: #D7F7C2;
+  width: fit-content;
+}
+
+.secondary-info {
+  color: #313131;
+  fill: #313131;
+  padding: 5px 10px;
+  border-radius: 8px;
+  background-color: rgb(231, 231, 231);
+  width: fit-content;
+}
+
+.img-forced {
+  object-fit: cover;
+  height: 100%;
+  max-height: 750px;
+  width: 100%;
+  max-width:100%!important;
+}
+
+.order-info {
+  max-height: 250px;
+  overflow: scroll;
+}

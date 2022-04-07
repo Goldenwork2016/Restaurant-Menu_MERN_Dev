@@ -1,0 +1,33 @@
+***CANDELA:***
+
+THEME COLOUR = #CA965C
+SHOP TITLE = Candela MTL
+MERCHANT_ID = 20356351-eb49-42c1-8b58-03ace580b160
+FOOTER_TEXT = Copyright © 2022 Candela MTL
+
+BANNER = https://i.imgur.com/1nmCvy5.jpg
+LOGO = https://i.imgur.com/IglARuN.png
+
+-----------
+
+***3LECHES:***
+
+THEME COLOUR = #122945
+SHOP TITLE = 3leches MTL - Mixture cakes topped with fresh fruits
+MERCHANT_ID = d609b238-77a4-4fb0-9542-ba7fb9525d44
+FOOTER_TEXT = Copyright © 2022 3 Leches MTL
+
+BANNER = https://i.imgur.com/2m2gAdJ.jpg
+LOGO = https://i.imgur.com/rtJDkgl.jpg
+
+-----------
+
+***PAINTINGS SHOP:***
+
+THEME COLOUR = #A2E1DB
+SHOP TITLE = sarvgunn sampann | Paintings
+MERCHANT_ID = 6406ca06-8f2d-4b28-86a8-bd9cc9d0b241
+FOOTER_TEXT = Copyright © 2022 sarvgunn sampann
+
+BANNER = https://i.imgur.com/lCB2mcr.png
+LOGO = https://i.imgur.com/dOdaYmX.png
