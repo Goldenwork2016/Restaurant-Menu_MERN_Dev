@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
-import CheckoutLoading from'./CheckoutLoading';
+import CheckoutLoading from'../deprecated/CheckoutLoading';
 import moment from 'moment'
 
 import axios from 'axios';
 import uuid from 'uuid/v1';
 import Navigation from './Navigation';
 import Footer from './Footer';
-import HamburgerMenu from './HamburgerMenu';
+import HamburgerMenu from '../deprecated/HamburgerMenu';
 import { HOST_APPLICATION_API } from '../utils/consts';
 //import ReCAPTCHA from "react-google-recaptcha";
 
@@ -98,21 +98,23 @@ export default class ComingSoon extends Component {
       <>
         <Navigation/>
         {/* <!-- Contact 1 --> */}
-        <section class="py-10 py-lg-20 bg-bg-3 text-left">
+        <section class="bg-bg-3 text-left">
           <div class="container">
-            <div class="row justify-content-start">
-              <div class="col-xl-7 col-md-12 col-sm-12 hide-desktop mb-15">
-                <img src="https://imgur.com/oyIrKGf.gif" alt="" class="img-forced"/>
+          <div class="row justify-content-between flex-md-row-reverse">
+              <div class="col-1"></div>
+              <div class="col-4 col-sm-12 pt-10 text-center">
+                <img src="../../assets/beta2.png" alt="" class="illustration" style={{maxWidth:"100%"}}/>
               </div>
-              <div class="col-xxl-4 col-xl-4 col-lg-7 col-md-9 px-10">
-                <h1 class="mb-6" data-aos="fade-down" data-aos-delay="0">
+              <div class="col-1"></div>
+              <div class="col-4 py-10 py-lg-20 col-xl-4 col-lg-5 col-md-6 col-sm-12">
+                <h1 class="mb-6" data-aos="none" data-aos-delay="0">
                   Join the Beta
                 </h1>
-                <p class="mb-6" data-aos="fade-down" data-aos-delay="0">
-                  Payouts Beta is invite-only until March 1st 2022.
+                <p class="mb-6" data-aos="none" data-aos-delay="0">
+                  Payouts Beta is invite-only until June 1st 2022.
                 </p>
                 <form onSubmit={(e)=>this.handleSubmit(e)} enctype="multipart/form-data"
-                  class="mb-15 js-ajax-form" data-aos="fade-down" data-aos-delay="150">
+                  class="mb-15 js-ajax-form" data-aos="none" data-aos-delay="150">
                   {/* <!-- forms alerts --> */}
                   <div class="alert alert-action-8 fixed-top invisible fade js-ajax-form-result"
                     data-result="success" role="alert">
@@ -184,10 +186,7 @@ export default class ComingSoon extends Component {
                   support@hellopayouts.com
                 </a>
               </div>
-              <div class="col-xl-1 col-md-1 col-sm-12"></div>
-              <div class="col-7 hide-mobile hide-tablet">
-                <img src="https://imgur.com/oyIrKGf.gif" alt="" class="img-forced"/>
-              </div>
+              <div class="col-1"></div>
             </div>
           </div>
         </section>

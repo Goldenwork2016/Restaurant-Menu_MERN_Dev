@@ -1,6 +1,6 @@
 import React from 'react';
 import Listing from '../components/Listing';
-import CardSoon from '../components/CardSoon';
+import CardSoon from '../deprecated/CardSoon';
 import { Link } from "react-router-dom";
 import LazyLoad from 'react-lazy-load';
 

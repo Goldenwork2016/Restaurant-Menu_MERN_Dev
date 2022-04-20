@@ -7,7 +7,7 @@ import { connect } from 'react-redux';
 import '../styles/css/style.css';
 
 import Footer from './Footer';
-import HamburgerMenu from './HamburgerMenu';
+import HamburgerMenu from '../deprecated/HamburgerMenu';
 // import HamburgerMenu from './HamburgerMenu';
 import Navigation from './Navigation';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

@@ -171,28 +171,19 @@ const DashboardContainer = (props) => {
                                         <div class="mb-6 col-6">
                                         <label>Shop URL</label>
                                         <div class="input-group">
-                                            <input type="text" name="lastname" placeholder="www.hellopayouts.com/pay/candelamtl"
+                                            <input type="text" name="lastname" placeholder="candela.pay-online.ca"
                                             class="form-control border border-dark-3" required="required" readOnly/>
                                         </div>
                                         </div>
                                     </div>
                                     <div class="row justify-content-center">
                                         <div class="mb-6 col-6">
-                                        <label>Colour Theme</label>
-                                        <div class="input-group">
-                                            <input type="text" name="firstname" placeholder="#FFF000"
-                                            class="form-control border border-dark-3" required="required"/>
+                                            <label>Theme Colour</label>
+                                            <div class="input-group">
+                                                <input type="text" name="firstname" placeholder="#FFF000"
+                                                class="form-control border border-dark-3" required="required"/>
+                                            </div>
                                         </div>
-                                        </div>
-                                        <div class="mb-6 col-6">
-                                        <label>Promo Bar Text</label>
-                                        <div class="input-group">
-                                            <input type="text" name="lastname" placeholder="20% OFF with Promo Code WELCOME20"
-                                            class="form-control border border-dark-3" required="required"/>
-                                        </div>
-                                        </div>
-                                    </div>
-                                    <div class="row justify-content-center">
                                         <div class="mb-6 col-lg-6 col-sm-12">
                                             <label>Logo</label>
                                             <div class="input-group text-center">
@@ -200,6 +191,15 @@ const DashboardContainer = (props) => {
                                                 class="form-control border border-dark-3 text-center justify-content-center" required="required"/>
                                             </div>
                                         </div>
+                                        {/* <div class="mb-6 col-6">
+                                            <label>Promo Bar Text</label>
+                                            <div class="input-group">
+                                                <input type="text" name="lastname" placeholder="20% OFF with Promo Code WELCOME20"
+                                                class="form-control border border-dark-3" required="required"/>
+                                            </div>
+                                        </div> */}
+                                    </div>
+                                    {/* <div class="row justify-content-center">   
                                         <div class="mb-6 col-lg-6 col-sm-12">
                                             <label>Font</label>
                                             <div class="input-group">
@@ -215,8 +215,8 @@ const DashboardContainer = (props) => {
                                                 </select>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="row justify-content-center">
+                                    </div> */}
+                                    {/* <div class="row justify-content-center">
                                         <div class="mb-6 col-6">
                                         <label>Facebook URL (optional)</label>
                                         <div class="input-group">
@@ -247,7 +247,7 @@ const DashboardContainer = (props) => {
                                             class="form-control border border-dark-3" required="required"/>
                                         </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     <div class="row justify-content-center">
                                         <div class="mb-6 col-12">
                                         <label>Shop Status</label>

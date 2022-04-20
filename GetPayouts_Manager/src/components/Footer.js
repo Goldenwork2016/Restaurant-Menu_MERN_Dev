@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import CheckoutLoading from'./CheckoutLoading';
+import CheckoutLoading from'../deprecated/CheckoutLoading';
 import moment from 'moment'
 
 import axios from 'axios';
@@ -134,7 +134,7 @@ export default class Footer extends Component {
 				<div class="mt-10 mb-8 border-bottom border-dark-3">
 				</div>
 				<p class="fs-5 mb-0">
-					Copyright © 2021 Payouts
+					Copyright © 2022 Payouts
 				</p>
 			</div>
 		</footer>

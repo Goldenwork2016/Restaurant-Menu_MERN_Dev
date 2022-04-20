@@ -144,7 +144,7 @@ const DashboardContainer = (props) => {
                                 <p class="mb-5">
                                 View all tax rates and create new ones
                                 </p>
-                                {/* <div class="mb-6 col-lg-6" data-aos="fade-down" data-aos-delay="150">
+                                {/* <div class="mb-6 col-lg-6" data-aos="none" data-aos-delay="150">
                                     <div class="border rounded-2 overflow-hidden btn-outline-action-10">
                                         <div class="row" style={{minHeight:"80px"}}>
                                             <button class="btn-action-1">
@@ -154,7 +154,7 @@ const DashboardContainer = (props) => {
                                     </div>
                                 </div> */}
                                <a class="col-12" href="/new-tax-rate">
-                                    <div class="mb-6" data-aos="fade-down" data-aos-delay="150">
+                                    <div class="mb-6" data-aos="none" data-aos-delay="150">
                                         <div class="border rounded-2 overflow-hidden btn-outline-action-10">
                                             <div class="row" style={{minHeight:"100px", display:"inline"}}>
                                                 <div class="text-center">
@@ -165,7 +165,7 @@ const DashboardContainer = (props) => {
                                     </div>
                                 </a>
                                 <a class="contents" href="/new-tax-rate">
-                                <div class="mb-6 col-lg-6" data-aos="fade-down" data-aos-delay="150">
+                                <div class="mb-6 col-lg-6" data-aos="none" data-aos-delay="150">
                                     <div class="border rounded-2 overflow-hidden btn-outline-action-10">
                                         <div class="row">
                                             <div class="col py-8 px-9">
@@ -194,7 +194,7 @@ const DashboardContainer = (props) => {
                                 </div>
                                 </a>
                                 <a class="contents" href="/new-tax-rate">
-                                <div class="mb-6 col-lg-6" data-aos="fade-down" data-aos-delay="150">
+                                <div class="mb-6 col-lg-6" data-aos="none" data-aos-delay="150">
                                     <div class="border rounded-2 overflow-hidden btn-outline-action-10">
                                         <div class="row">
                                             <div class="col py-8 px-9">
@@ -223,7 +223,7 @@ const DashboardContainer = (props) => {
                                 </div>
                                 </a>
                                 <a class="contents" href="/new-tax-rate">
-                                <div class="mb-6 col-lg-6" data-aos="fade-down" data-aos-delay="150">
+                                <div class="mb-6 col-lg-6" data-aos="none" data-aos-delay="150">
                                     <div class="border rounded-2 overflow-hidden btn-outline-action-10">
                                         <div class="row">
                                             <div class="col py-8 px-9">

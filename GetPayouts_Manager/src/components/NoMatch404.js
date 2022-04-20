@@ -1,13 +1,13 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import Footer from '../components/Footer';
-import HamburgerMenu from '../components/HamburgerMenu';
+import HamburgerMenu from '../deprecated/HamburgerMenu';
 
-import SearchButtonMobile from '../components/SearchButtonMobile';
-import SearchBarDesktop from '../components/SearchBarDesktop';
-import LogoMobile from '../components/LogoMobile';
-import LogoDesktop from '../components/LogoDesktop';
-import RightHandButtonDesktop from '../components/RightHandButtonDesktop';
+import SearchButtonMobile from '../deprecated/SearchButtonMobile';
+import SearchBarDesktop from '../deprecated/SearchBarDesktop';
+import LogoMobile from '../deprecated/LogoMobile';
+import LogoDesktop from '../deprecated/LogoDesktop';
+import RightHandButtonDesktop from '../deprecated/RightHandButtonDesktop';
 import Navigation from './Navigation';
 
 const NoMatch404 = ()=>{

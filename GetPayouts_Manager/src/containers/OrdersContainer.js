@@ -144,12 +144,12 @@ const OrdersContainer = (props) => {
                                 <p class="mb-5">
                                 View all orders
                                 </p>
-                                {!merchant_order_summary && <Loading />}
-                                {/* ORDER INFO START */}
+                                {/* {!merchant_order_summary && <Loading />}
+                                ORDER INFO START
                                 {merchant_order_summary
                                 && merchant_order_summary.length !== 0
-                                && merchant_order_summary.map(order=>
-                                <div class="mb-6 col-lg-6" data-aos="fade-down" data-aos-delay="150">
+                                && merchant_order_summary.map(order=> */}
+                                <div class="mb-6 col-lg-6" data-aos="none" data-aos-delay="150">
                                     <div class="border rounded-2 overflow-hidden btn-outline-action-10">
                                         <div class="row">
                                             <div class="col py-8 px-9">
@@ -206,7 +206,7 @@ const OrdersContainer = (props) => {
                                                     <div class="col-auto col-lg-12 col-xl-auto text-right">
                                                     <span class="fs-6">Date</span>
                                                         <div class="ml-2 fs-5 mb-2">
-                                                            Jan. 14, 2021, 12:23 pm
+                                                            Jan. 14, 2023, 12:23 pm
                                                         </div>
                                                     </div>
                                                 </div>
@@ -319,7 +319,8 @@ const OrdersContainer = (props) => {
                                             </div>
                                         </div>
                                     </div>
-                                </div>)}
+                                </div>
+                                {/* )} */}
                                 {/* ORDER INFO END */}
                             </div>
                             </div>

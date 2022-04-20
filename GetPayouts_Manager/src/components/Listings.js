@@ -11,7 +11,7 @@ import Loading from '../components/Loading';
 
 import {Link} from 'react-router-dom';
 import Navigation from '../components/Navigation';
-import HamburgerMenu from './HamburgerMenu';
+import HamburgerMenu from '../deprecated/HamburgerMenu';
 import { auth, db, logout } from '../firebase';
 import {upsertMerchant, addProduct } from '../actions';
 

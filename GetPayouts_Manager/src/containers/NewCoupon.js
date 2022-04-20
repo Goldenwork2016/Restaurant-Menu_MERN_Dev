@@ -141,7 +141,7 @@ const DashboardContainer = (props) => {
                                 <h1 class="mb-4">
                                     New Coupon
                                 </h1>
-                                {/* <div class="mb-6 col-lg-6" data-aos="fade-down" data-aos-delay="150">
+                                {/* <div class="mb-6 col-lg-6" data-aos="none" data-aos-delay="150">
                                     <div class="border rounded-2 overflow-hidden btn-outline-action-10">
                                         <div class="row" style={{minHeight:"80px"}}>
                                             <button class="btn-action-1">

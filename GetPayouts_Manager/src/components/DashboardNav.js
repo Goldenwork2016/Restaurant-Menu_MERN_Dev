@@ -165,7 +165,8 @@ const DashboardContainer = (props) => {
                 <svg class="mr-2 mb-1" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M20 21V19C20 17.9391 19.5786 16.9217 18.8284 16.1716C18.0783 15.4214 17.0609 15 16 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="#626C80" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
-                    Account Setup <span class="btn-action-3 fs-6 py-1 px-1 rounded-1">Required</span>
+                    Account Setup 
+                    {/* <span class="btn-action-3 fs-6 py-1 px-1 rounded-1">Required</span> */}
                 </a>
                 <a href="/settings" class="text-dark-1 mb-lg-4 mx-lg-0 mx-2 d-lg-block mt-5 col-12 pl-0">
                 <svg  class="mr-2 mb-1" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -175,15 +176,9 @@ const DashboardContainer = (props) => {
                     Shop Settings
                 </a>
                 <br></br>
-                <a href="https://main.d2s6xuy4eizex8.amplifyapp.com/home" target="_blank" class="btn btn-outline-action-2 fs-5 mb-lg-4 mx-lg-0 mx-2 d-lg-block mt-5 col-12" style={{marginTop:"30px", maxWidth:"200px"}}>
+                <a href="https://www.candelamtl.com" target="_blank" class="btn btn-outline-action-2 fs-5 mb-lg-4 mx-lg-0 mx-2 d-lg-block mt-5 col-12" style={{marginTop:"30px", maxWidth:"200px"}}>
                     Preview shop
-                    {/* <svg class="ml-2 mb-1" fill="#EF008F" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="18px" height="18px"><path d="M 5 3 C 3.9069372 3 3 3.9069372 3 5 L 3 19 C 3 20.093063 3.9069372 21 5 21 L 19 21 C 20.093063 21 21 20.093063 21 19 L 21 12 L 19 12 L 19 19 L 5 19 L 5 5 L 12 5 L 12 3 L 5 3 z M 14 3 L 14 5 L 17.585938 5 L 8.2929688 14.292969 L 9.7070312 15.707031 L 19 6.4140625 L 19 10 L 21 10 L 21 3 L 14 3 z"/></svg> */}
-                </a>
-                <a href="https://main.d2s6xuy4eizex8.amplifyapp.com/home" target="_blank" class="text-dark-2 mb-lg-4 mx-lg-0 mx-2 d-lg-block mt-5 col-12 pl-0 fs-5">
-                    Live Demo
-                </a>
-                <a href="/pricing" class="text-dark-2 mb-lg-4 mx-lg-0 mx-2 d-lg-block mt-5 col-12 pl-0 fs-5">
-                    Pricing
+                    {/* <svg class="ml-2 mb-1" fill="#CA14B8" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="18px" height="18px"><path d="M 5 3 C 3.9069372 3 3 3.9069372 3 5 L 3 19 C 3 20.093063 3.9069372 21 5 21 L 19 21 C 20.093063 21 21 20.093063 21 19 L 21 12 L 19 12 L 19 19 L 5 19 L 5 5 L 12 5 L 12 3 L 5 3 z M 14 3 L 14 5 L 17.585938 5 L 8.2929688 14.292969 L 9.7070312 15.707031 L 19 6.4140625 L 19 10 L 21 10 L 21 3 L 14 3 z"/></svg> */}
                 </a>
             </div>
         </div>
